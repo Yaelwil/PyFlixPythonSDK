@@ -1,7 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        label 'general'
+    }
+
     environment {
-        NEXUS_CREDENTIALS_ID = "Nexus"  # TODO complete me
+        NEXUS_CREDENTIALS_ID = "Nexus"
         NEXUS_URL = "http://localhost:8081"
         GROUP_REPO_NAME = "py-group"
         DEV_HOSTED_REPO_NAME = "py-dev"
