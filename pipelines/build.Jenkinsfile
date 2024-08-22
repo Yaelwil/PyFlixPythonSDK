@@ -5,7 +5,7 @@ pipeline {
 
     environment {
         NEXUS_CREDENTIALS_ID = "Nexus"
-        NEXUS_URL = "http://localhost:8081"
+        NEXUS_URL = "http://172.30.0.2:8081"
         GROUP_REPO_NAME = "py-group"
         DEV_HOSTED_REPO_NAME = "py-dev"
     }
