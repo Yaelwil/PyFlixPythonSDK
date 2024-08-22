@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup_args = dict(
     name='pyflix',
-    version='1.0.0',
+    version='1.0.1',
     description='Netflix SDK',
     license='MIT',
     install_requires=[
@@ -17,3 +17,4 @@ setup_args = dict(
 
 if __name__ == '__main__':
     setup(**setup_args)
+
